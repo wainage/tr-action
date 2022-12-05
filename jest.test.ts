@@ -14,7 +14,7 @@ describe("Jest Setup Test", () => {
     expect(process.env.NODE_ENV).toBe("test");
   });
   test.todo("Todo Test");
-  test("Skip Test", () => {
+  test.skip("Skip Test", () => {
     // This should never run
     expect(false).toBeTruthy();
   });
